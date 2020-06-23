@@ -1,21 +1,21 @@
-# Cesium Concierge
+# Nextech Concierge
 
-__Hello! I'm Cesium Concierge, a GitHub bot for [Cesium](https://github.com/AnalyticalGraphicsInc/cesium). I automate
+__Hello! I'm Nextech Concierge, a GitHub bot for [NextechJS](https://github.com/NextechGS/NextechJS). I automate
 common GitHub tasks such as welcoming first time contributors and reminding you to write tests. (I'm great fun at parties!)__
 
-You'll find repository-specific settings in each repository I watch under a `.concierge` directory. For example, here's CesiumJS's concierge settings:
+You'll find repository-specific settings in each repository I watch under a `.concierge` directory. For example, here's NextechJS's concierge settings:
 
-https://github.com/AnalyticalGraphicsInc/cesium/tree/master/.concierge 
+https://github.com/NextechGS/NextechJS/tree/master/.concierge 
 
 ## Building
 
 Clone this repository:
 ```bash
-$ git clone https://github.com/AnalyticalGraphicsInc/cesium-concierge
+$ git clone https://github.com/NextechGS/nextch-concierge
 ```
 Install the dependencies:
 ```bash
-$ cd cesium-concierge && npm install
+$ cd nextech-concierge && npm install
 ```
 
 And run:
@@ -24,7 +24,7 @@ $ npm start
 ```
 
 ## Setup
-`cesium-concierge` requires a few configuration settings before working. These are loaded, in the following order of priority, from:
+`nextech-concierge` requires a few configuration settings before working. These are loaded, in the following order of priority, from:
 
 * The repository's `.concierge/config.json` file.
 * Environment variables.
